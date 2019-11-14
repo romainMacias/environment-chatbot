@@ -3,6 +3,7 @@
 Please report any bugs to nicomwaks@gmail.com
 i have added console.log on line 48 
  */
+//TOKEN:EAAODS398qWwBAGSgZBD8thQibFqaHrUts8f47FkDlLSUTHpLALMMpBZCQAlVkYDkSZB42ZCo7CA8ZAXsOzznBYbHxi660ZB4P7i4uifD8OafZCVjM1MY0ZAW4G1PtC9H3fH5yFHuGAKaiC7rJT1vJXK542Ay8M8S5FPP6rLXveUYkwZDZD
 'use strict'
 
 const express = require('express')
@@ -59,7 +60,7 @@ app.post('/webhook/', function (req, res) {
 
 // recommended to inject access tokens as environmental variables, e.g.
 // const token = process.env.FB_PAGE_ACCESS_TOKEN
-const token = "<FB_PAGE_ACCESS_TOKEN>"
+const token = "<EAAODS398qWwBAGSgZBD8thQibFqaHrUts8f47FkDlLSUTHpLALMMpBZCQAlVkYDkSZB42ZCo7CA8ZAXsOzznBYbHxi660ZB4P7i4uifD8OafZCVjM1MY0ZAW4G1PtC9H3fH5yFHuGAKaiC7rJT1vJXK542Ay8M8S5FPP6rLXveUYkwZDZD>"
 
 function sendTextMessage(sender, text) {
 	let messageData = { text:text }
